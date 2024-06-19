@@ -1,0 +1,40 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+h2, p{
+    display: inline-block;
+    margin: auto;
+}
+h2{
+    font-size: 20px;
+}
+
+.linha {
+    flex: 0 0 30px;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0 10px;
+    
+}
+.esquerda {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style-type: none;
+}
+.esquerda li {
+    width: 50%;
+    margin-bottom: 10px;
+}
+.direita {
+    float: right;
+    margin: 2px;
+}
